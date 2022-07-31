@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-image: url("image/backgroundimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.input-area {
+    margin-bottom: 5px;
+}
+.user-input {
+    transition: padding-top 0.2s ease, margin-top 0.2s ease;
+    width: 40%;
+    border: none;
+    border: 1px solid thistle;
+}
+.user-input:focus {
+    outline: none;
+    transition: 0.5s;
+    padding: 10px 0px;
+}
+
+.task-area {
+    border: 1px solid gray;
+}
+.task-tabs {
+    display: flex; 
+    border-bottom: 1px solid gray;
+}
+.task-tabs div {
+    padding: 1em;
+    position: relative;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.task-done {
+    text-decoration: line-through;
+}
+.task-tabs div {
+    cursor: pointer;
+}
+
+#under-line {
+    position: absolute;
+    padding: 0px;
+    height: 4px;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+.back {
+    background-color: green;
+}
+
+.add-button {
+    border: 1px solid thistle;
+    background-color: thistle;
+    border-radius: 2px;
+}
+.button-box {
+    display: flex;
+}
+.button-box button {
+    height: 100%;
+    width: 3em;
+    border: none;
+    background-color: white;
+    margin: 0;
+    transition: 0.5s;
+}
+.button-box button:first-child:hover {
+    background-color: greenyellow;
+}
+.button-box button:nth-child(2):hover {
+    background-color: aqua;
+}
+
+.fa-check {
+    color: limegreen;
+}
+.fa-undo-alt {
+    color: lightslategray;
+}
+.fa-check {
+    color: red;
+}
