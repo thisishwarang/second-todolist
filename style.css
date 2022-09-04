@@ -1,10 +1,14 @@
 body {
     margin: 0;
+    height: 100vh;
     background-image: url("image/ghY4rc.webp");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 95%;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -89,4 +93,13 @@ body {
 }
 .fa-check {
     color: red;
+}
+
+@media screen and (min-width: 601){
+    .user-input {
+        width: 100%;
+    }
+    h1 {
+        color: red;
+    }
 }
